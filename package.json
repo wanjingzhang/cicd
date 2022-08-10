@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn test"
     }
   },
   "scripts": {
@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "lint-staged": "^13.0.3",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
   }
 }

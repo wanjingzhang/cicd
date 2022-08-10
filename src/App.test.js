@@ -13,5 +13,5 @@ test('renders learn react link', () => {
 });
 
 test('detect sum method exec 1 + 2',()=>{
-  expect(sum(1,2)).toBe(3)
+  expect(sum(1,2)).toBe(4)
 })
