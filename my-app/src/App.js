@@ -8,7 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. 
-          test lint-staged
+          1. .lintstagedrc
+          2. husky:{pre-commit}
         </p>
         <a
           className="App-link"

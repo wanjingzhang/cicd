@@ -17,3 +17,4 @@ post install(sass执行脚本，执行请求的发送，获取sass的相关的�
 
 安装依赖了husky库
  yarn add lint-staged husky -S
+添加husky在package.json
