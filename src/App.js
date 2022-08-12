@@ -10,6 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload. 
           1. .lintstagedrc
           2. husky:{ }
+          3. 测试git上传
         </p>
         <a
           className="App-link"
