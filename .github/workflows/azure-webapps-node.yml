@@ -17,7 +17,10 @@
 # For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
 
+name: deploy website
+
 on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ "main" ]
   workflow_dispatch:
@@ -32,8 +35,11 @@ permissions:
 
 jobs:
   build:
+    # the type of operation. such as windows
     runs-on: ubuntu-latest
+    # The specific task that will be executed as part of the job
     steps:
+    # 
     - uses: actions/checkout@v3
 
     - name: Set up Node.js
